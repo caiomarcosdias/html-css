@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a{
+        color: rgb(252, 2, 2);
+       text-decoration: none;
+       font-weight: bold;
+    }
+
+    a:visited{
+        color: rgb(145, 0, 0);
+    }
+    a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+
+    a::after{
+    content: '[Link]';
+    }
+    a::before{
+        content: '🖱️ ';
+    
+    }
+
+   span:hover{
+    color: red;
+   }
+</style>
+
+
+</head>
+<body>
+  <h1>Personalizando links</h1>
+    <ul>
+    <li><a href="https://www.youtube.com/watch?v=pTycfmVzdl8" target="_blank"  rel="external">Musica do ano</a></li>
+    <li><a href="https://www.youtube.com/watch?v=eHHQaoEW30Q" target="_blank"  rel="external">Melhor musica</a></li>
+    <li><a href="https://www.youtube.com/watch?v=hAEfi_SKTEU" target="_blank"  rel="external">SOTY</a></li>
+  </ul>  
+  
+ <p>passe o mouse <span>aqui</span></p>
+</body>
+</html>
