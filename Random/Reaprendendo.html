@@ -1,15 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reaprendendo</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu à Direita</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
 
+    nav {
+      background-color: #333;
+      padding: 10px 20px;
+    }
+
+    nav ul {
+      list-style: none; /* remove os pontos da lista */
+      margin: 0;
+      padding: 0;
+      display: flex; /* coloca os itens em linha */
+      justify-content: flex-end; /* empurra os itens para a direita */
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff9800; /* muda a cor ao passar o mouse */
+    }
+  </style>
 </head>
 <body>
-    <h1>Estou Reaprendendo Html</h1>
-    <p>apos um tempo sem estar em contato com o html e css estou estudando novamente entao preciso reaprender os conceitos e comenado dessa linguagens</p>
-    
+
+  <nav>
+    <ul>
+      <li><a href="#">Início</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Serviços</a></li>
+      <li><a href="#">Contato</a></li>
+    </ul>
+  </nav>
+
 </body>
 </html>
